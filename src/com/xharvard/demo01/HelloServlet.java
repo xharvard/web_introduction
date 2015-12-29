@@ -30,6 +30,7 @@ public class HelloServlet extends HttpServlet {
 		pw.println("</head>");
 		pw.println("<body>");
 		pw.println("<h1> Hello! " + name + "</h1>");
+		pw.println("<p>对于同一个servlet,在web.xml中配置后会覆盖注解的配置。</p>");
 		pw.println("</body>");
 		pw.println("</html>");
 	}
