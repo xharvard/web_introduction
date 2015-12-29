@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.xharvard.learning.constant.Constant;
+
 @WebServlet("/servlet/*")
 public class PathServlet extends HttpServlet {
 
@@ -17,11 +19,11 @@ public class PathServlet extends HttpServlet {
 	public PathServlet() {
 		super();
 	}
-	
+
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		resp.setContentType("text/html;charset=UTF-8");
-		
+		resp.setContentType(Constant.CONTENT_TYPE);
+
 		PrintWriter pw = resp.getWriter();
 
 		pw.println("<html>");

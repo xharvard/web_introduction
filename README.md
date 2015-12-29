@@ -12,5 +12,4 @@ Cap2:
  web-app 3.1版本可以通过[metadata-complete="false"]设置是否扫描class文件中的注解。true:表示忽略，false:表示要扫描。
 
 * com.xharvard.learning.note02.PathServlet -> http://localhost:8080/web_introduction/servlet/test
-
- 
+* com.xharvard.learning.note02.IpDemoServlet -> http://localhost:8080/web_introduction/ip_demo?name=xhh&password=123
