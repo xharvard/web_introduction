@@ -29,7 +29,7 @@
   
   <servlet>
   	<servlet-name>HelloServlet</servlet-name>
-  	<servlet-class>com.xharvard.demo01.HelloServlet</servlet-class>
+  	<servlet-class>com.xharvard.learning.note02.HelloServlet</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>HelloServlet</servlet-name>

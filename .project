@@ -3,6 +3,7 @@
 	<name>web_introduction</name>
 	<comment></comment>
 	<projects>
+		<project>web_child</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -1,4 +1,4 @@
-package com.xharvard.demo01;
+package com.xharvard.learning.note02;
 
 import java.io.IOException;
 import java.io.PrintWriter;
