@@ -19,3 +19,6 @@ http://tomcat.apache.org/tomcat-8.0-doc/servletapi/index.html<br>
 * com.xharvard.learning.note03.EncodingServlet -> http://localhost:8080/web_introduction/html/note03/form-get.html
   http://localhost:8080/web_introduction/html/note03/form-post.html
 * com.xharvard.learning.note03.BodyServlet -> http://localhost:8080/web_introduction/html/note03/form.html
+* com.xharvard.learning.note03.UploadServlet -> http://localhost:8080/web_introduction/html/note03/upload.html
+* com.xharvard.learning.note03.UploadServlet2 -> http://localhost:8080/web_introduction/html/note03/upload2.html
+* com.xharvard.learning.note03.UploadServlet3 -> http://localhost:8080/web_introduction/html/note03/upload3.html

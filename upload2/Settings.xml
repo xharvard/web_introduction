@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+<OnlineStatus major="0" minor="0" desc=""/>
+<DisplaySelf display="1"/>
+<MsgPromptMode DirectOpen="0" popup="1"/>
+<OnlineNotify notify="1"/>
+<ChatFont name="微软雅黑" height="180" color="-1" bold="0" italic="0" strikeout="0" underline="0"/>
+<ChatSendMode ByEnter="1"/>
+<AcceptInvite FromFriend="1" FromStranger="0"/>
+<AllowFollow FromFriend="1" FromStranger="0"/>
+<SysMsg RecentMsgID="0"/>
+<SoundSettings>
+<Sound event="1" play="1" path="G:\11game\resource\Sound\msg.wav"/>
+<Sound event="2" play="1" path="G:\11game\resource\Sound\message.wav"/>
+<Sound event="3" play="1" path="G:\11game\resource\Sound\userlogon.wav"/>
+<Sound event="4" play="1" path="G:\11game\resource\Sound\sysmsg.wav"/>
+</SoundSettings>
+<FriendList ListMode="1"/>
+<GuildList ListMode="1"/>
+</Settings>

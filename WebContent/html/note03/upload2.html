@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>文件上传</title>
+</head>
+<body>
+	<p>本示例使用@MultipartConfig的location属性指定上传路径</p>
+	<form action="/web_introduction/upload2.do" method="post"
+		enctype="multipart/form-data">
+		上传文件：<input type="file" name="file"><br><br>
+		<input type="submit" name="upload" value="上传">
+	</form>
+</body>
+</html>
