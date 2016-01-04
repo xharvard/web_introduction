@@ -22,3 +22,5 @@ http://tomcat.apache.org/tomcat-8.0-doc/servletapi/index.html<br>
 * com.xharvard.learning.note03.UploadServlet -> http://localhost:8080/web_introduction/html/note03/upload.html
 * com.xharvard.learning.note03.UploadServlet2 -> http://localhost:8080/web_introduction/html/note03/upload2.html
 * com.xharvard.learning.note03.UploadServlet3 -> http://localhost:8080/web_introduction/html/note03/upload3.html
+* com.xharvard.learning.note03.OneServlet -> http://localhost:8080/web_introduction/one.view
+* com.xharvard.learning.note03.HelloController -> http://localhost:8080/web_introduction/hello.do?user=xhh
