@@ -24,7 +24,8 @@ public class VerificationServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		
+		// http://www.singlex.net/3156.html
+		// http://blog.csdn.net/gxy3509394/article/details/7400994
 	}
 
 }
