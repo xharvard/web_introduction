@@ -28,5 +28,6 @@ http://tomcat.apache.org/tomcat-8.0-doc/servletapi/index.html<br>
 * com.xharvard.learning.note03.DownloadServlet -> http://localhost:8080/web_introduction/download?passwd=123456
 * com.xharvard.learning.goosip.controller.Login -> http://localhost:8080/web_introduction/html/gossip/index.html
 * com.xharvard.learning.note03.demo.DrawImageServlet -> http://localhost:8080/web_introduction/draw-image
+* com.xharvard.learning.note03.demo.VerificationServlet -> http://localhost:8080/web_introduction/html/note03/demo/verification.html
 
 ######cap4:
