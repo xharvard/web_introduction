@@ -5,14 +5,18 @@
 <title>动态验证码</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script type="text/javascript">
-	
+	function changePic() {
+		document.getElementById("img").setAttribute(
+				"src",
+				"/web_introduction/verification.do?timestamp="
+						+ new Date().getTime());
+	}
 </script>
 </head>
 <body>
-<form>
-	<img alt="动态验证码" src=""><a href="" onclick="">看不清，换一张</a>
-	<br>
-	输入验证码：<input type="text">
-</form>
+	<form>
+		<img id="img" alt="动态验证码" src="/web_introduction/verification.do">
+		<a href="javascript:onclick=changePic();">看不清，换一张</a>
+	</form>
 </body>
 </html>
