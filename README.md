@@ -31,3 +31,4 @@ http://tomcat.apache.org/tomcat-8.0-doc/servletapi/index.html<br>
 * com.xharvard.learning.note03.demo.VerificationServlet -> http://localhost:8080/web_introduction/html/note03/demo/verification.html
 
 ######cap4:
+* com.xharvard.learning.note04.QuestionnaireServlet -> http://localhost:8080/web_introduction/questionnaire
