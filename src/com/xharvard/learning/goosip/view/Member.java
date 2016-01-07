@@ -70,6 +70,7 @@ public class Member extends HttpServlet {
 		out.println("<a href='/web_introduction/logout.done?username=" + username + "'>注销" + username + "</a>");
 		out.println("</div>");
 
+		out.println("<div>");
 		out.println("<form method='post' action='/web_introduction/message.done'>");
 		out.println("分享新鲜事...<br>");
 
@@ -105,7 +106,8 @@ public class Member extends HttpServlet {
 
 		out.println("</tbody>");
 		out.println("</table>");
-		out.println("<hr style='width: 100%; height: 1px;'>");
+		out.println("</div>");
+		out.println("<hr style='width: 100%; height: 1px; clear:both'>");
 		out.println("</body>");
 		out.println("</html>");
 

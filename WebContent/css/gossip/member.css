@@ -12,6 +12,10 @@ a {
 	color:#ff0000;
 }
 
+div{
+	float:left;
+}
+
 .leftPanel{
 	float:left;
 	width:300px;
