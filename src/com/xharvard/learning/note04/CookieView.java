@@ -1,18 +1,21 @@
 package com.xharvard.learning.note04;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/cookie-index")
-public class CookieIndex extends HttpServlet {
+import com.xharvard.learning.constant.Constant;
+
+@WebServlet("/view-cookie.do")
+public class CookieView extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public CookieIndex() {
+	public CookieView() {
 		super();
 	}
 
@@ -29,22 +32,23 @@ public class CookieIndex extends HttpServlet {
 	private void processRequest(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		Cookie[] cookies = request.getCookies();
-		if (cookies != null) {
-			for (Cookie cookie : cookies) {
-				String name = cookie.getName();
-				String value = cookie.getValue();
-				
-				if("xhh".equals(name) && "123456".equals(value)){
-					request.setAttribute("user", name);
-					request.getRequestDispatcher("view-cookie.do").forward(request, response);
-					return;
-				}
-			}
-		}
-		
-		response.sendRedirect("html/note04/login.html");
+		response.setContentType(Constant.CONTENT_TYPE);
 
+		if (request.getAttribute("user") == null) {
+			response.sendRedirect("html/note04/login.html");
+		}
+
+		PrintWriter out = response.getWriter();
+		out.println("<!DOCTYPE html");
+		out.println("<html>");
+		out.println("<head>");
+		out.println("<title>Servlet User</title>");
+		out.println("</head>");
+		out.println("<body>");
+		out.println("<h1>" + request.getAttribute("user") + "已登录</h1>");
+		out.println("</body>");
+		out.println("</html>");
+		out.close();
 	}
 
 }
