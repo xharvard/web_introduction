@@ -36,6 +36,8 @@ public class Login extends HttpServlet {
 		String password = request.getParameter("password");
 
 		if (checkLogin(username, password)) {
+			// 保持用户登录信息
+			request.getSession().setAttribute("login", username);
 			request.getRequestDispatcher(SUCCESS_VIEW).forward(request, response);
 		} else {
 			response.sendRedirect(ERROR_VIEW);
