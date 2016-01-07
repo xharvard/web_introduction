@@ -99,13 +99,13 @@ public class Member extends HttpServlet {
 			out.println(username + "<br>");
 			out.println(messages.get(date) + "<br>");
 			out.println(format.format(date)+"<br>");
-			out.println("<a href='/web_introduction/delete.done?message=" + date.getTime() + ">删除</a>");
+			out.println("<a href='/web_introduction/delete.done?message=" + date.getTime() + "'>删除</a>");
 			out.println("<hr></td></tr>");
 		}
 
 		out.println("</tbody>");
 		out.println("</table>");
-		out.println("<hr style='width: 80%; height: 1px;'>");
+		out.println("<hr style='width: 100%; height: 1px;'>");
 		out.println("</body>");
 		out.println("</html>");
 
