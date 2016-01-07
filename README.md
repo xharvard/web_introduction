@@ -34,4 +34,4 @@ http://tomcat.apache.org/tomcat-8.0-doc/servletapi/index.html<br>
 * com.xharvard.learning.note04.QuestionnaireServlet -> http://localhost:8080/web_introduction/questionnaire
 * com.xharvard.learning.note04.CookieLogin -> http://localhost:8080/web_introduction/html/note04/login.html
 * com.xharvard.learning.note04.CookieIndex -> http://localhost:8080/web_introduction/cookie-index
-
+* com.xharvard.learning.note04.SearchServlet -> http://localhost:8080/web_introduction/search.view
