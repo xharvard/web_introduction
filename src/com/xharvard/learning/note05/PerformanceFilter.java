@@ -1,6 +1,8 @@
 package com.xharvard.learning.note05;
 
 import java.io.IOException;
+
+import javax.servlet.DispatcherType;
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
 import javax.servlet.FilterConfig;
@@ -13,6 +15,10 @@ import javax.servlet.annotation.WebInitParam;
 @WebFilter(filterName="/PerformanceFilter",urlPatterns={"/*"},servletNames={""},
 			initParams={
 					@WebInitParam(name="param1",value="value1")
+			},
+			dispatcherTypes={
+					DispatcherType.REQUEST,
+					DispatcherType.INCLUDE
 			}
 		)
 public class PerformanceFilter implements Filter {
