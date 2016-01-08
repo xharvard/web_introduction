@@ -1,4 +1,4 @@
-package com.xharvard.learning.note05;
+package com.xharvard.learning.note05.requestwrapper;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletRequestWrapper;

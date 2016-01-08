@@ -42,5 +42,5 @@ http://tomcat.apache.org/tomcat-8.0-doc/servletapi/index.html<br>
 * com.xharvard.learning.note05.ServletContextDemo -> http://localhost:8080/web_introduction/context.demo
 * com.xharvard.learning.note05.ServletContextListenerDemo（ContextParameterReader,ServletContextAttributeImp） -> http://localhost:8080/web_introduction/ServletContextListenerDemo
 * com.xharvard.learning.note05.PerformanceFilter -> http://localhost:8080/web_introduction/servlet.demo
-* com.xharvard.learning.note05.SendServlet(EscapeFileter,EscapeWrapper) ->http://localhost:8080/web_introduction/html/note05/send.html
+* com.xharvard.learning.note05.requestwrapper.SendServlet(EscapeFileter,EscapeWrapper) ->http://localhost:8080/web_introduction/html/note05/send.html
 

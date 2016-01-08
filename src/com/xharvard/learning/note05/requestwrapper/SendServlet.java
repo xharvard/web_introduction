@@ -1,4 +1,4 @@
-package com.xharvard.learning.note05;
+package com.xharvard.learning.note05.requestwrapper;
 
 import java.io.IOException;
 import java.io.PrintWriter;
