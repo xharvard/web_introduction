@@ -35,3 +35,7 @@ http://tomcat.apache.org/tomcat-8.0-doc/servletapi/index.html<br>
 * com.xharvard.learning.note04.CookieLogin -> http://localhost:8080/web_introduction/html/note04/login.html
 * com.xharvard.learning.note04.CookieIndex -> http://localhost:8080/web_introduction/cookie-index
 * com.xharvard.learning.note04.SearchServlet -> http://localhost:8080/web_introduction/search.view
+* com.xharvard.learning.goosip.controller.Login -> http://localhost:8080/web_introduction/html/gossip/index.html
+
+######cap5:
+* com.xharvard.learning.note05.ServletConfigDemo -> http://localhost:8080/web_introduction/servlet.demo
