@@ -19,7 +19,8 @@ import javax.servlet.annotation.WebInitParam;
 			dispatcherTypes={
 					DispatcherType.REQUEST,
 					DispatcherType.INCLUDE
-			}
+			},
+			asyncSupported=true
 		)
 public class PerformanceFilter implements Filter {
 
