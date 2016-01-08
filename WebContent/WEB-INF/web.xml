@@ -32,4 +32,30 @@
     <param-name>IMAGE</param-name>
     <param-value>/images</param-value>
   </context-param>
+  
+  <!-- listener -->
+  <!--
+  <listener>
+  	<listener-class>com.xharvard.learning.note05.ContextParameterReader</listener-class>
+  </listener>
+  -->
+  
+  <!-- filter -->
+  <!--
+  <filter>
+  	<filter-name>filter</filter-name>
+  	<filter-class>com.xharvard.learning.note05.PerformanceFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>filter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  	<servlet-name>ServletConfigDemo</servlet-name>
+  	<dispatcher>REQUEST</dispatcher>
+  	<dispatcher>FORWARD</dispatcher>
+  	<dispatcher>INCLUDE</dispatcher>
+  	<dispatcher>ERROR</dispatcher>
+  	<dispatcher>ASYNC</dispatcher>
+  </filter-mapping>
+  -->
 </web-app>
