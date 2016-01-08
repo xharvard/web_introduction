@@ -39,3 +39,4 @@ http://tomcat.apache.org/tomcat-8.0-doc/servletapi/index.html<br>
 
 ######cap5:
 * com.xharvard.learning.note05.ServletConfigDemo -> http://localhost:8080/web_introduction/servlet.demo
+* com.xharvard.learning.note05.ServletContextDemo -> http://localhost:8080/web_introduction/context.demo
