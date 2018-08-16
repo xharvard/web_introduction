@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>文件上传</title>
+</head>
+<body>
+	<p>一次上传多个文件</p>
+	<form action="/web_introduction/upload3.do" method="post"
+		enctype="multipart/form-data">
+		文件1：<input type="file" name="file1"><br><br>
+		文件2：<input type="file" name="file2"><br><br>
+		文件3：<input type="file" name="file3"><br><br>
+		<input type="submit" name="upload" value="上传">
+	</form>
+</body>
+</html>

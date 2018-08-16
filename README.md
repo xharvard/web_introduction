@@ -47,3 +47,58 @@ http://tomcat.apache.org/tomcat-8.0-doc/servletapi/index.html<br>
 * com.xharvard.learning.note05.async.AsyncServlet -> http://localhost:8080/web_introduction/AsyncServlet
 * com.xharvard.learning.note05.serverpush.AsyncNumServlet -> http://localhost:8080/web_introduction/html/note05/async.html
 
+
+
+##JSP
+Demo路径： WebContent/pages
+
+###3个编译指令 (<%@ page ... %>)
+- page
+- include
+- taglib
+
+###7个动作指令 (<jsp:forward ... ></jsp:forard>)
+- forward
+- include
+- useBean
+- setProperty
+- getProperty
+- plugin
+- param
+
+###9个内置对象
+- application
+- config
+- exception
+- out
+- page
+- pageContext
+- request
+- response
+- session
+
+
+include指令包含html和jsp页面的时候乱码解决方法
+
+1. 各个页面头部添加	 `<%@ page pageEncoding="UTF-8" %>`
+2. web.xml添加全局处理
+
+	    <jsp-config>
+		 <jsp-property-group>
+		   <description>html encoding</description>
+		   <display-name>HtmlConfiguration</display-name>
+		   <url-pattern>*.html</url-pattern>
+		   <el-ignored>true</el-ignored>
+		   <page-encoding>UTF-8</page-encoding>
+		   <scripting-invalid>false</scripting-invalid>
+		 </jsp-property-group>
+		 <jsp-property-group>
+		   <description>jsp encoding</description>
+		   <display-name>JspConfiguration</display-name>
+		   <url-pattern>*.jsp</url-pattern>
+		   <el-ignored>true</el-ignored>
+		   <page-encoding>UTF-8</page-encoding>
+		   <scripting-invalid>false</scripting-invalid>
+		 </jsp-property-group>
+		</jsp-config>
+		

@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+body{
+	font-size:20px;
+}
+
+table {
+	background-color:#cccccc;
+}
+
+a {
+    color: #000000
+}
+
+.red{
+	color:#ff0000;
+}
+
+#loginPanel{
+	float:left;
+	width:300px;
+}
