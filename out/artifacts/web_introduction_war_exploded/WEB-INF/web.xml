@@ -28,6 +28,7 @@
     <servlet-name>HelloServlet</servlet-name>
     <url-pattern>/hello</url-pattern>
   </servlet-mapping>
+
   <context-param>
     <param-name>IMAGE</param-name>
     <param-value>/images</param-value>

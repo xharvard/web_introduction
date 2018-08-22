@@ -1,15 +1,14 @@
 package com.xharvard.learning.note02;
 
-import java.io.IOException;
-import java.io.PrintWriter;
+import com.xharvard.learning.constant.Constant;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import com.xharvard.learning.constant.Constant;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 @WebServlet("/hello.view")
 public class HelloServlet extends HttpServlet {
@@ -35,6 +34,8 @@ public class HelloServlet extends HttpServlet {
 		pw.println("<p>对于同一个servlet,在web.xml中配置后会覆盖注解的配置。</p>");
 		pw.println("</body>");
 		pw.println("</html>");
+
+		pw.close();
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
